@@ -32,9 +32,9 @@ navbar.php
 
 A estrutrua de diretório ficará da seguinte forma:
 
-├── adac.py
-├── atualizar_registro.php
-├── cadastro.php
+├── adac.py\n
+├── atualizar_registro.php\n
+├── cadastro.php\n
 ├── conexao.php
 ├── css
 ├── dados.xlsx
