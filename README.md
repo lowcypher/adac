@@ -32,18 +32,30 @@ navbar.php
 
 A estrutrua de diretório ficará da seguinte forma:
 
-├── adac.py\n
-├── atualizar_registro.php\n
-├── cadastro.php\n
+├── adac.py
+
+├── atualizar_registro.php
+
+├── cadastro.php
+
 ├── conexao.php
+
 ├── css
+
 ├── dados.xlsx
+
 ├── footer.php
+
 ├── gerar_phps.sh
+
 ├── index.php
+
 ├── leiame.txt
+
 ├── navbar.php
+
 ├── salvar_registro.php
+
 └── wallp.png
 
 Obs. 0: o arquivo "dados.xlsx" é um arquivo de teste.
@@ -54,28 +66,50 @@ Obs. 0: o arquivo "dados.xlsx" é um arquivo de teste.
 A estrutura padrão do sistema é:
 
 ├── adac.py - script Python principal
+
 ├── co2.xlsx - arquivo de dados convertido de um arquivo CSV
+
 ├── css - diretório com arquivos de estilo para as páginas
+
 ├── gerar_busca.py - Script Python que gera a página "pesquisa.php"
+
 ├── gerar_phps.sh - Shell Script que gera as páginas PHP
+
 ├── link-dados-co2.txt - link do arquivo de dados em formato CSV
+
 └── wallp.png - imagem para o fundo nas páginas geradas
 
 Após os arquivos gerados, ficará:
 
+
 ├── adac.py - script Python principal
+
 ├── atualizar_registro.php - página gerada pelo Shell Script
+
 ├── cadastro.php - página gerada pelo Shell Script
+
 ├── co2.xlsx - arquivo de dados convertido de um arquivo CSV
+
 ├── conexao.php - página gerada pelo Shell Script
+
 ├── css - diretório com arquivos de estilo para as páginas
+
 ├── footer.php - página gerada pelo Shell Script
+
 ├── gerar_busca.py - Script Python que gera a página "pesquisa.php"
+
 ├── gerar_phps.sh - Shell Script que gera as páginas PHP
+
 ├── index.php - página gerada pelo Shell Script
+
 ├── link-dados-co2.txt - link do arquivo de dados em formato CSV
+
 ├── navbar.php - página gerada pelo Shell Script
+
 ├── pesquisa.php - página gerada pelo Script Ptyhon "gerar_busca.py"
+
 ├── salvar_registro.php - página gerada pelo Shell Script
+
 └── wallp.png - imagem para o fundo nas páginas geradas
-	Obs. 1: O nome dos arquivos de conexão com o MySQL está como padrão “conexao.php” e o de pesquisa no banco de dados é “pesquisa.php”. Prefira manter esse padrão. Caso necessite mudar, verifique os arquivos PHP gerados, uma vez que estão configurados para estes padrões. 
+
+Obs. 1: O nome dos arquivos de conexão com o MySQL está como padrão “conexao.php” e o de pesquisa no banco de dados é “pesquisa.php”. Prefira manter esse padrão. Caso necessite mudar, verifique os arquivos PHP gerados, uma vez que estão configurados para estes padrões. 
